@@ -1,11 +1,17 @@
-let input=prompt("Input a character","r");
-let conversion=input.charCodeAt(0);
-if (conversion>=65 && conversion<=90) {
-    alert ('upper case true');
-   }
-  else if (conversion>=97 && conversion<=122){
-    alert ('lower case true');
-   }
-   else{
-    alert ('Number');
-   }
+let a=10;
+document.write("Value of a is "+a+"<br>");
+++a;
+document.write("Value of ++a is "+a+"<br>");
+document.write("Value of a is now "+a+"<br>");
+
+document.write("Value of a++ is "+a+"<br>");
+a++;
+document.write("Value of a is now "+a+"<br>");
+
+--a;
+document.write("Value of --a is "+a+"<br>");
+document.write("Value of a is now "+a+"<br>");
+
+document.write("Value of a-- is "+a+"<br>");
+a--;
+document.write("Value of a is now "+a+"<br>");
